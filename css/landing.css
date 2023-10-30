@@ -1,0 +1,121 @@
+body{
+    font-family: 'Work Sans';
+}
+
+.header{
+    width: 1920px;
+    height: 80px;
+}
+.container{
+    margin: auto;
+}
+
+.header__content{
+    display: flex;
+    top: 50%;
+    margin-left: 112px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.header__logo{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.header__logo-title{
+    align-self: center;
+    font-weight: 700;
+    font-style: italic;
+    color: rgba(41, 71, 169, 1);
+    font-size: 30px;
+    line-height: 35.19px;
+    margin-left: 14px;
+}
+
+.nav__content{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    top: 50%;
+}
+
+.nav__link{
+    font-weight: 400;
+    cursor: pointer;
+    color: rgba(20, 23, 31, 1);
+    text-decoration: none;
+    line-height: 21.11px;
+    font-size: 18px;
+}
+
+.nav__link--contacts{
+    font-weight: 600;
+    color: rgba(249, 153, 93, 1);
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.nav{
+    margin-right: 112px;
+}
+
+.gallery{
+    position: relative;
+    min-height: 640px;
+    width: 1920px;
+}
+
+.gallery__content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery__image{
+    background-image: url(../img/Background.jpg);
+    height: 100%;
+}
+
+.gallery__mask{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.90) 15.1%, rgba(255, 255, 255, 0.00) 82.29%);
+}
+
+.gallery__text{
+    position: absolute;
+    top: 50%;
+    font-size: 72px;
+    font-weight: 600;
+    max-width: 556px;
+    left: 240px;
+    top: 222px
+}
+
+.gallery__manager{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery__manager-body{
+    background-color: rgba(53, 89, 199, 1);
+    padding: 20px 0px 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+}
+
+.gallery__manager-header{
+    font-weight: 800;
+}
